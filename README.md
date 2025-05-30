@@ -15,8 +15,10 @@ To configure and test basic firewall rules using Windows Defender Firewall.
   ```powershell
   Test-NetConnection -ComputerName localhost -Port 23
  Result: TcpTestSucceeded: False
+ → Port 23 was successfully blocked.
 - Removed the rule and retested the connection.
  Result: TcpTestSucceeded: True
+→ Port 23 was successfully unblocked.
 
 ---
 
