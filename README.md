@@ -17,7 +17,7 @@ To configure and test basic firewall rules using Windows Defender Firewall.
  Result: TcpTestSucceeded: False
  → Port 23 was successfully blocked.
 - Removed the rule and retested the connection.
- Result: TcpTestSucceeded: True
+  Result: TcpTestSucceeded: True
 → Port 23 was successfully unblocked.
 
 ---
